@@ -1,0 +1,272 @@
+:root{
+    --gray-dark-600: #d1d5db;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background-color: #030712;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.header {
+    margin-top: 20px;
+}
+.title_head {
+    border-radius: 12px;
+    background-color: #374151;
+    padding: 2px 20px;
+    width: 125px;
+    height: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    color: #D1D5DB;
+    text-align: center;
+    margin: 0 auto;
+}
+.text_head {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--gray-dark-600);
+    margin-top: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+.head_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-items: center;
+    row-gap: 80px;
+    margin-top: 40px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+.html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 110px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_html {
+    width: 94px;
+    height: 64px;
+}
+.title_grid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--gray-dark-600);
+    margin-top: 5px;
+}
+.css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_css {
+    width: 94px;
+    height: 64px;
+}
+.bootstrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_bootstrap {
+    width: 64px;
+    height: 64px;
+}
+.materialize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_materialize {
+    width: 64px;
+    height: 64px;
+}
+.git {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_git {
+    width: 64px;
+    height: 64px;
+}
+.github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_GitHub {
+    width: 64px;
+    height: 64px;
+}
+.figma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_figma {
+    width: 44px;
+    height: 64px;
+}
+.pixco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    border-radius: 12px;
+    padding-top: 10px;
+    background-color: #1c222d;
+    box-shadow:
+    0 1px 4px rgba(179, 230, 255, 0.3),
+    -23px 0 20px -23px rgba(0, 79, 157, 0.8),
+    23px 0 20px -23px rgba(179, 149, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.1) inset;
+}
+.img_pixco {
+    width: 64px;
+    height: 64px;
+}
+.button_menu {
+    border-radius: 12px;
+    background-color: #374151;
+    width: 125px;
+    height: 38px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+.hop{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.button_menu:hover {
+    background: #1c1f29;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+    color: #000;
+}
+.button_menu:after {
+    content: "";
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button_menu:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button_menu:focus { outline:0; }
+.sss_btn {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    color: #D1D5DB;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 700px){
+    .head_grid{
+        grid-template-columns: repeat(2, 4fr);
+        row-gap: 40px;
+    }
+    .hop{
+        margin-bottom: 30px;
+    }
+}
